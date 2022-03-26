@@ -165,11 +165,9 @@ public class registerPage extends javax.swing.JFrame {
         
     }//GEN-LAST:event_user_registerBTNActionPerformed
 public void registerInject(){
-            java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
+            java.awt.EventQueue.invokeLater(() -> {
                 new registerPage().setVisible(true);
-            }
-        });
+            });
 }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
